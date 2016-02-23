@@ -1,0 +1,92 @@
+
+
+@media (min-width: 768px) {
+  .navbar-fixed-top {
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .navbar-fixed-top .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-fixed-top.navbar-shrink {
+    padding: 10px 0;
+  }
+  .navbar-fixed-top.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+.navbar {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: white;
+  padding-top: 8px;
+}
+.navbar a:focus {
+  outline: none;
+}
+.navbar .navbar-nav {
+  letter-spacing: 1px;
+}
+.navbar .navbar-nav li a:focus {
+  outline: none;
+}
+.navbar-default,
+.navbar-inverse {
+  border: none;
+}
+.jumbotron {
+	background-color: white;
+}
+
+.big-text {
+	text-align: center;
+	font-size: 45px;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.middle {
+	font-size: 31px;
+	text-align: center;
+}
+.middle-text {
+	font-size: 18px;
+}
+.fa-heart {
+	color: red;
+}
+.course {
+	font-size: 25px;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+  font-weight: 700;
+}
+.course-middle {
+	text-align: center;
+	font-size: 25px;
+}
+.logo {
+	width: 180px;
+}
+.cont-class {
+	width: 720px;
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: white;
+    color: black;
+}
+.donate-text {
+text-align: center;
+font-size: 19px;
+}
+.watch{
+  width: 100%;
+  height: 100%;
+
+}
